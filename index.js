@@ -28,9 +28,15 @@ async function run() {
     await client.connect();
 
     const instructorCollection = client.db("languageSafari").collection("instructors");
+    const classCollection = client.db("languageSafari").collection("classes");
 
     app.get("/instructors", async(req, res) => {
       const result = await instructorCollection.find().toArray();
+      res.send(result);
+    });
+
+    app.get("/classes", async(req, res) => {
+      const result = await classCollection.find().toArray();
       res.send(result);
     });
 
