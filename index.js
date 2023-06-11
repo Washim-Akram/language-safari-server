@@ -28,6 +28,7 @@ async function run() {
     // await client.connect();
 
     const instructorCollection = client.db("languageSafari").collection("instructors");
+
     const classCollection = client.db("languageSafari").collection("classes");
 
     app.get("/instructors", async(req, res) => {
@@ -49,6 +50,7 @@ async function run() {
   }
 }
 run().catch(console.dir);
+
 
 
 app.get("/", (req, res) => {
