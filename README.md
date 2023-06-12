@@ -1,14 +1,18 @@
 # Language Safari Server
 
-## Live Server Link
+## Live website Link:
+
+Hosted in Firebase -> https://language-safari-1d514.web.app
+
+## Live Server Link:
 
 Hosted in Vercel -> https://language-safari-server.vercel.app/
 
-## Server Side Used Packages & Technologies
+## Packages & Technologies
 
 [Node.js](https://nodejs.org/en)
 
-[Express.js](https://expressjs.com/)
+[Express.js](https://expressjs.com)
 
 [MongoDB](https://www.mongodb.com/atlas/database)
 
