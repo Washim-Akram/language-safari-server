@@ -58,6 +58,11 @@ async function run() {
       res.send(result);
     });
 
+    app.get("/popular-instructors", async(req, res) => {
+      const result = await instructorCollection.find().limit(6).toArray();
+      res.send(result);
+    });
+
     // Classes Related API's
     app.get("/classes", async(req, res) => {
       const result = await classCollection.find().toArray();
