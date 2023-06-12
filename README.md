@@ -8,7 +8,7 @@ Hosted in Firebase -> https://language-safari-1d514.web.app
 
 Hosted in Vercel -> https://language-safari-server.vercel.app/
 
-## Packages & Technologies
+## Packages & Technologies:
 
 [Node.js](https://nodejs.org/en)
 
